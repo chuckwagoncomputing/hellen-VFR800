@@ -361,7 +361,7 @@
 
   (footprint "Customparts:trollfaceVFR" (layer "F.Cu")
     (tstamp 275f2b76-eabf-49c2-8427-fbe0c33d5978)
-    (at 217.987855 120.422501)
+    (at 222.137855 124.572501)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 4297329f-5dc8-4694-9738-8a40cbbc2d42)
