@@ -1,1 +1,1 @@
-This repo contains files to build a standalone plug and play RusEFI uaEFI based ECU for a 99 Honda VFR800. The prototype has not been built and currently none of these files can be used to make a functioning ECU
+This repo contains files to build a standalone plug and play RusEFI uaEFI based ECU for a 99 Honda VFR800. The prototype is unfinished and currently none of these files can be used to make a functioning ECU
