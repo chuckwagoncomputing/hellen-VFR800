@@ -1,5 +1,1 @@
-# FAQ
-
-Q: I get "Cannot parse position" with negative value?
-
-A: Please move origin point into left-bottom corner of the board since we cannot parse negative coordinates at the moment. See https://github.com/andreika-git/hellen-one/issues/349
+This repo contains files to build a standalone plug and play RusEFI uaEFI based ECU for a 99 Honda VFR800. The prototype has not been built and currently none of these files can be used to make a functioning ECU
