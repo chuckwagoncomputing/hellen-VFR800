@@ -1,1 +1,5 @@
-This repository contains a prototype for a RusEFI uaEFI based plug and play module for a 99-01 Honda VFR800. Everything here is untested and the prototype hasn't been finished so expect nothing to function in its current state.
+# FAQ
+
+Q: I get "Cannot parse position" with negative value?
+
+A: Please move origin point into left-bottom corner of the board since we cannot parse negative coordinates at the moment. See https://github.com/andreika-git/hellen-one/issues/349
