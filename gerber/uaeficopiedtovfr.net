@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-example/hellen-example/uaeficopiedtovfr.kicad_sch</source>
-    <date>Thu Dec 28 08:03:02 2023</date>
+    <date>Thu Dec 28 21:10:08 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -165,7 +165,7 @@
       <property name="ki_description" value="Mounting Hole with connection"/>
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>615e7fec-73a9-4144-8b65-8e6d07872485</tstamps>
+      <tstamps>272d647c-6f2b-4ff3-b7d2-29118d6158aa</tstamps>
     </comp>
     <comp ref="H2">
       <value>MountingHole_Pad</value>
@@ -176,7 +176,7 @@
       <property name="ki_description" value="Mounting Hole with connection"/>
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1536cfb7-3f78-4374-b6a8-62fca351cb76</tstamps>
+      <tstamps>ca5345c1-78fa-479d-b8fe-baa554e31a85</tstamps>
     </comp>
     <comp ref="J1">
       <value>DTF13-12PB</value>
@@ -555,7 +555,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaeficopiedtovfr.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bbf47acd-c4df-491c-a452-b04d393fc52d</tstamps>
+      <tstamps>7a0ada30-ae47-492d-a880-e38598e70508</tstamps>
     </comp>
     <comp ref="U1">
       <value>~</value>
