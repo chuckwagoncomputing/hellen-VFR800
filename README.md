@@ -1,0 +1,1 @@
+This repository contains a prototype for a RusEFI uaEFI based plug and play module for a 99-01 Honda VFR800. Everything here is untested and the prototype hasn't been finished so expect nothing to function in its current state.
