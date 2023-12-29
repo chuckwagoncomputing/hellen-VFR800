@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/uaeficopiedtovfr.kicad_sch</source>
-    <date>Thu Dec 28 23:58:54 2023</date>
+    <date>Fri Dec 29 01:41:10 2023</date>
     <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -598,12 +598,9 @@
     <comp ref="Q1">
       <value>ISL9V3040D3S</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
-      <fields>
-        <field name="MyComment">DNP</field>
-      </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
       <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
@@ -614,12 +611,9 @@
     <comp ref="Q2">
       <value>ISL9V3040D3S</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
-      <fields>
-        <field name="MyComment">DNP</field>
-      </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
       <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
@@ -630,12 +624,9 @@
     <comp ref="Q3">
       <value>ISL9V3040D3S</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
-      <fields>
-        <field name="MyComment">DNP</field>
-      </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
       <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
@@ -646,12 +637,9 @@
     <comp ref="Q4">
       <value>ISL9V3040D3S</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
-      <fields>
-        <field name="MyComment">DNP</field>
-      </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="MyComment" value=""/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
       <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
