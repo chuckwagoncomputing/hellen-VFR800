@@ -1,4 +1,4 @@
-22855547255961448
+22864067166280423
 3d
 AMS_QFN-4-1EP_2x2mm_P0.95mm_EP0.7x1.6mm
 UFD Package, 4-Lead Plastic QFN (2mm x 2mm), http://ams.com/eng/content/download/950231/2267959/483138
@@ -55034,6 +55034,20 @@ ACS70331EESATR-2P5B3
 12
 12
 Customparts
+TE_1-776200-2
+
+
+0
+23
+23
+Customparts
+TE_1-776261-1
+
+
+0
+14
+14
+Customparts
 VFRboardempty
 
 
@@ -87290,6 +87304,13 @@ Integrated Circuit
 25
 25
 SamacSys_Parts
+17760871
+1-776087-1-2
+Connector
+0
+23
+23
+SamacSys_Parts
 CAPC3216X180N
 C3216 (160 thickness)
 Capacitor
@@ -87306,6 +87327,20 @@ Connector
 SamacSys_Parts
 DTF1312PB
 DTF13-12PB-2
+Connector
+0
+14
+14
+SamacSys_Parts
+DTF1512PA
+DTF15-12PA-1
+Connector
+0
+12
+12
+SamacSys_Parts
+DTF1512PB
+DTF15-12PB-4
 Connector
 0
 14
