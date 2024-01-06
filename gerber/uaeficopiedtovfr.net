@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/uaeficopiedtovfr.kicad_sch</source>
-    <date>Fri Jan  5 17:25:47 2024</date>
+    <date>Wed Jan  3 01:51:54 2024</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1766,13 +1766,13 @@
       <node ref="U1" pin="B12" pinfunction="B12" pintype="input"/>
     </net>
     <net code="12" name="/CAN+">
-      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
       <node ref="M5" pin="W4" pinfunction="CANH" pintype="passive"/>
       <node ref="M6" pin="W11" pinfunction="CANH" pintype="passive"/>
       <node ref="M7" pin="W4" pinfunction="CANH" pintype="passive"/>
     </net>
     <net code="13" name="/CAN-">
-      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="M5" pin="W3" pinfunction="CANL" pintype="passive"/>
       <node ref="M6" pin="W12" pinfunction="CANL" pintype="passive"/>
       <node ref="M7" pin="W3" pinfunction="CANL" pintype="passive"/>
@@ -2081,7 +2081,7 @@
       <node ref="M6" pin="S22" pinfunction="VREF1" pintype="passive"/>
     </net>
     <net code="94" name="/WBO2_Heater">
-      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="M7" pin="E5" pinfunction="LSU_H+" pintype="passive"/>
     </net>
     <net code="95" name="/WBO2_Ip">
@@ -2101,7 +2101,7 @@
       <node ref="M7" pin="E2" pinfunction="LSU_Vm" pintype="passive"/>
     </net>
     <net code="99" name="/WBO_Heater">
-      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="M5" pin="E5" pinfunction="LSU_H+" pintype="passive"/>
     </net>
     <net code="100" name="/WBO_Ip">
@@ -2127,7 +2127,7 @@
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
