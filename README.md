@@ -1,10 +1,14 @@
+Eventual bike build log will be located at 
+https://vfrenjoyer.neocities.org
+
 This repo contains files to build a standalone plug and play RusEFI Hellen based ECU for a 99 Honda VFR800. The prototype is unfinished and currently none of these files can be used to make a functioning ECU
 
 A quick look at the wiring diagrams suggest this hardware should also be compatible with the CBR600F4i, CBR929RR, and 01-03 CBR1100xx  if the ECU connectors were repinned.
 
 In addition to the above it may be able to replace the ignition module/ECU of a 98-08 VT1100C, 01-07 VT750DC, 02-04 VTX1800, RC51, and 2003-09 VTX1300 with some harness repinning
 
-Features in progress as of v0.03:
+
+Features in progress as of v0.04:
 
 Drop in ECU replacement for 99-01 VFR800 with addition of 2 wideband oxygen sensors
 
@@ -16,7 +20,7 @@ CANBUS
 
 3x lowside driver output on rear connector
 
-Inputs for flex fuel and knock sensors on rear connector
+Inputs for two flex fuel or other analog sensors on rear connector
 
 USB support
 
