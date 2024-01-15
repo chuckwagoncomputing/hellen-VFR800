@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/uaeficopiedtovfr.kicad_sch</source>
-    <date>Tue Jan  9 07:26:50 2024</date>
+    <date>Mon Jan 15 23:46:44 2024</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1909,6 +1909,7 @@
       <node ref="M6" pin="S12" pinfunction="IN_MAP2_(PC1)" pintype="passive"/>
     </net>
     <net code="47" name="/IN_AUX1">
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
       <node ref="M6" pin="S11" pinfunction="IN_O2S_/_CAN_WAKEUP_(PA0)" pintype="passive"/>
     </net>
     <net code="48" name="/IN_AUX2">
@@ -1946,7 +1947,6 @@
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="57" name="/IN_KNOCK_RAW">
-      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
       <node ref="M2" pin="W1" pinfunction="IN_KNOCK" pintype="passive"/>
     </net>
     <net code="58" name="/IN_MAP">
