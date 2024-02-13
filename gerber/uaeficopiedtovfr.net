@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/uaeficopiedtovfr.kicad_sch</source>
-    <date>Sun Feb 11 22:04:31 2024</date>
+    <date>Tue Feb 13 07:31:16 2024</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -238,15 +238,15 @@
       <tstamps>c794d80a-dab9-4a55-8320-0f18399792a3</tstamps>
     </comp>
     <comp ref="J7">
-      <value>Conn_01x05_Male</value>
-      <footprint>Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical</footprint>
-      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <value>MUSBD111M0</value>
+      <footprint>CONN4_BD111M0_AMP</footprint>
+      <datasheet>MUSBD111M0</datasheet>
+      <libsource lib="usbb" part="MUSBD111M0" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaeficopiedtovfr.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
-      <property name="ki_keywords" value="connector"/>
+      <property name="ki_keywords" value="MUSBD111M0"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>66e9bef7-fdb6-4b5d-ad7f-7f2e10e03b38</tstamps>
+      <tstamps>91e06d7a-513b-4543-9a81-b5b72f94db90</tstamps>
     </comp>
     <comp ref="J8">
       <value>USB_B_Mini</value>
@@ -1141,25 +1141,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x05_Pin">
-      <description>Generic connector, single row, 01x05, script generated</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x05_Pin</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
       <description>USB 2.0-only Type-C Receptacle connector</description>
       <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
@@ -1734,6 +1715,24 @@
         <field name="Footprint">kicad6-libraries:rusefi_logo</field>
       </fields>
     </libpart>
+    <libpart lib="usbb" part="MUSBD111M0">
+      <docs>MUSBD111M0</docs>
+      <footprints>
+        <fp>CONN4_BD111M0_AMP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MUSBD111M0</field>
+        <field name="Footprint">CONN4_BD111M0_AMP</field>
+        <field name="Datasheet">MUSBD111M0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
     <libpart lib="vr-max9924" part="Module-vr-max9924-0.1">
       <fields>
         <field name="Reference">M</field>
@@ -2080,14 +2079,14 @@
       <node ref="M6" pin="N20" pinfunction="OUT_PWR_EN_(PE10)" pintype="passive"/>
     </net>
     <net code="84" name="/USB+">
-      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="J8" pin="3" pinfunction="D+" pintype="passive"/>
       <node ref="J9" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J9" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="M6" pin="N3" pinfunction="USBP_(PA12)" pintype="passive"/>
     </net>
     <net code="85" name="/USB-">
-      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="J8" pin="2" pinfunction="D-" pintype="passive"/>
       <node ref="J9" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J9" pin="B7" pinfunction="D-" pintype="bidirectional"/>
@@ -2098,7 +2097,7 @@
       <node ref="M6" pin="N17" pinfunction="VBAT" pintype="passive"/>
     </net>
     <net code="87" name="/VBUS">
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="J8" pin="1" pinfunction="VBUS" pintype="power_out"/>
       <node ref="J9" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J9" pin="A9" pinfunction="VBUS" pintype="passive"/>
@@ -2179,8 +2178,7 @@
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="J8" pin="5" pinfunction="GND" pintype="power_out"/>
       <node ref="J8" pin="6" pinfunction="Shield" pintype="passive"/>
       <node ref="J9" pin="A1" pinfunction="GND" pintype="passive"/>
