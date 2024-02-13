@@ -6,4 +6,5 @@
   (lib (name "Proteus_Little-eagle-import")(type "Legacy")(uri "D:/Car CAD stuff/hellen-example-master/Proteus_Little-eagle-import.lib")(options "")(descr "")(disabled))
   (lib (name "Proteus_Little-rescue")(type "Legacy")(uri "D:/Car CAD stuff/hellen-example-master/Proteus_Little-rescue.lib")(options "")(descr "")(disabled))
   (lib (name "74HC125DB_112")(type "Legacy")(uri "D:/Car CAD stuff/hellen-example-master/74HC125DB_112.lib")(options "")(descr "")(disabled))
+  (lib (name "usbb")(type "KiCad")(uri "D:/Car CAD stuff/kicadlibs/2024-02-13_06-13-47.kicad_sym")(options "")(descr ""))
 )
