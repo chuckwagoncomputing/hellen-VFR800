@@ -9,7 +9,7 @@ Comment,Designator,Footprint,LCSC Part #
 "MountingHole_Pad","H2","MountingHole_3.2mm_M3_DIN965_Pad",""
 "Conn_01x06","J3, J6","PinHeader_1x06_P2.54mm_Vertical","C37208"
 "1-776087-1","J4","17760871",""
-"Conn_01x05_Male","J7","Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical",""
+"MUSBD111M0","J7","CONN4_BD111M0_AMP",""
 "USB_B_Mini","J8","USB-MINI-B-VERTICAL",""
 "USB_C_Receptacle_USB2.0","J9","USB_C_Receptacle_XKB_U262-16XN-4BVC11","C2927038"
 "Jumper_2_Bridged","JP1","PinHeader_1x02_P2.54mm_Vertical",""
