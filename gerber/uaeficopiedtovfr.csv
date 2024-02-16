@@ -15,7 +15,7 @@
 "Conn_01x06","J3","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","C37208"
 "1-776087-1","J4","17760871",""
 "Conn_01x06","J6","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","C37208"
-"MUSBD111M0","J7","CONN4_BD111M0_AMP",""
+"MUSBD111M0","J7","usbb:CONN4_BD111M0_AMP",""
 "USB_B_Mini","J8","hellen-one-common:USB-MINI-B-VERTICAL",""
 "USB_C_Receptacle_USB2.0","J9","Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11","C2927038"
 "Jumper_2_Bridged","JP1","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
