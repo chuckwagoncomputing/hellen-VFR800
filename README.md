@@ -16,7 +16,7 @@ CANBUS
 
 3x lowside driver output on rear connector
 
-Inputs for flex fuel/other analog sensors on rear connector
+Inputs for analog sensor on rear connector
 
 USB support
 
