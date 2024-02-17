@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.10-7.0.10~ubuntu22.04.1*
-G04 #@! TF.CreationDate,2024-02-16T07:54:17+00:00*
+G04 #@! TF.CreationDate,2024-02-17T02:27:14+00:00*
 G04 #@! TF.ProjectId,uaeficopiedtovfr,75616566-6963-46f7-9069-6564746f7666,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.10-7.0.10~ubuntu22.04.1) date 2024-02-16 07:54:17*
+G04 Created by KiCad (PCBNEW 7.0.10-7.0.10~ubuntu22.04.1) date 2024-02-17 02:27:14*
 %MOMM*%
 %LPD*%
 G01*
