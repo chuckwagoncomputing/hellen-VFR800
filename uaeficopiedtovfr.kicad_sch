@@ -12124,7 +12124,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 193.04) (xy 95.25 196.85)
+			(xy 92.71 195.58) (xy 92.71 196.85)
 		)
 		(stroke
 			(width 0)
@@ -14445,6 +14445,16 @@
 		)
 		(uuid "cbfd852d-a336-41ba-88e0-d5c0913598d6")
 	)
+	(wire
+		(pts
+			(xy 95.25 195.58) (xy 95.25 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc751133-d9b1-433d-8d08-9b4e3262ce4a")
+	)
 	(bus
 		(pts
 			(xy 109.22 99.06) (xy 156.21 99.06)
@@ -14724,7 +14734,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 196.85) (xy 110.49 196.85)
+			(xy 92.71 196.85) (xy 110.49 196.85)
 		)
 		(stroke
 			(width 0)
@@ -15418,6 +15428,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "fc25601f-83bd-4efa-86a1-2baae999e840")
+	)
+	(wire
+		(pts
+			(xy 92.71 195.58) (xy 95.25 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6f3ed5-2e7f-4e1f-b229-0b8d699b3dfe")
 	)
 	(bus
 		(pts
@@ -16365,7 +16385,7 @@
 		(uuid "33656e31-e097-42de-b35e-3f86e5a4cbb4")
 	)
 	(label "IN_BUTTON1"
-		(at 95.25 196.85 180)
+		(at 92.71 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
