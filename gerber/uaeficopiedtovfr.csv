@@ -61,6 +61,7 @@
 "0","R13","Resistor_SMD:R_2512_6332Metric","C25469"
 "0","R14","Resistor_SMD:R_2512_6332Metric","C25469"
 "22","R15","hellen-one-common:R0603","C23345"
+"470k","R16","hellen-one-common:R0603","C23162"
 "0","R18","Resistor_SMD:R_2512_6332Metric","C25469"
 "4.7k","R21","hellen-one-common:R0603","C23162"
 "4.7k","R22","hellen-one-common:R0603","C23162"
